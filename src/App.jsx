@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Product from './pages/Product'
-
+ 
 const App = () => {
   return (
     <div className='text-[32px]'>
