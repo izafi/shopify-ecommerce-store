@@ -5,7 +5,6 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
 
 const DISPLAY_FONT = "'Fraunces', Georgia, serif";
 
@@ -133,7 +132,7 @@ const Cards = ({ product }) => {
 
         {/* View Product */}
 <Link
-  to={`/products/${product.id}`}
+  to={`/product/${product.id}`}
   className="w-full mt-4 sm:mt-5 bg-[#17241C] hover:bg-[#C7A15C] hover:text-[#17241C] text-[#F5F1E6] py-2.5 sm:py-3 font-medium text-xs sm:text-sm flex items-center justify-center gap-2 transition-colors duration-300 group/button"
 >
   View product
