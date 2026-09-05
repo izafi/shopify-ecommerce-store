@@ -52,7 +52,7 @@ const Footer = () => {
               {[
                 { name: "Home", to: "/" },
                 { name: "Products", to: "/product" },
-                { name: "Recipes", to: "/recipes" },
+                { name: "About", to: "/about" },
                 { name: "Contact", to: "/contact" },
               ].map((item) => (
                 <li key={item.to}>
